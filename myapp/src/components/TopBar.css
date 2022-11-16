@@ -1,0 +1,57 @@
+.top{
+    width:100%;
+    height: 50px;
+    margin-top: 10px;
+   
+    background-color: rgb(76, 252, 231);
+    top: 0;
+    display: flex;
+    align-items: center;
+    color:#444;
+}
+
+
+.topLeft,.topRight{
+    flex:5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.topLeft{
+    font-weight: 400;
+    font-size: 33px;
+}
+
+.total-top-bar{
+display: flex-start;
+align-items: flex-start;
+
+}
+
+.topCenter{
+    flex: 6;
+}
+
+#searcid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.topListItem{
+    margin-right: 70px;
+    font-size: 3ch;
+    font-weight: 300;
+    cursor: pointer;
+    
+    
+    
+}
